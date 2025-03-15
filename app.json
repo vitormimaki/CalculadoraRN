@@ -2,7 +2,7 @@
   "expo": {
     "name": "CalculadoraRN",
     "slug": "CalculadoraRN",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
     "scheme": "myapp",
@@ -20,6 +20,7 @@
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "versionCode": 2,
       "package": "com.vitormimaki.CalculadoraRN"
     },
     "web": {
@@ -50,6 +51,12 @@
         "projectId": "d4797e9c-6f8c-4235-be01-727164dc1afb"
       }
     },
-    "owner": "vitormimaki"
+    "owner": "vitormimaki",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d4797e9c-6f8c-4235-be01-727164dc1afb"
+    }
   }
 }
